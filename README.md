@@ -1,2 +1,6 @@
-# Atlas
-Arduino Mega 2560-driven 3-DOF leg (hip/knee/ankle) with serial command interface. Supports standing/sitting/home positions via Servo motor.   **Tech**: Arduino | C++ | Servo Motors   
+# 🤖 Atlas  
+Arduino 3-DOF leg controller  
+
+## 🚀 Quick Start  
+```bash
+arduino-cli compile --fqbn arduino:avr:mega humanoid_bipedal.ino
